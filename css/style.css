@@ -103,10 +103,10 @@ body {
 }
 
 .header__content {
-    background-image: url(../images/header.jpg);
+    background-image: url(../images/header.webp);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    background-position: top center;
+    background-size: contain;
     min-height: calc(100vh - 135px);
     display: flex;
     flex-direction: column;
@@ -319,16 +319,6 @@ ul li::before {
     max-height: 600px;
 }
 
-.telegramm {
-    display: flex;
-    margin-top: 50px;
-    justify-content: center;
-}
-
-.telegramm__img {
-    max-width: 400px;
-}
-
 .footer {
     background-color: #f1f1ee91;
     color: #fff;
@@ -490,10 +480,6 @@ ul li::before {
         max-width: 400px;
         max-height: 400px;
     }
-    .telegramm__img {
-        max-width: 400px;
-        max-height: 400px;
-    }
     menu {
         display: inline;
         list-style-type: disc;
@@ -515,10 +501,6 @@ ul li::before {
         line-height: 60px;
     }
     .target__img {
-        max-width: 320px;
-        max-height: 400px;
-    }
-    .telegramm__img {
         max-width: 320px;
         max-height: 400px;
     }
